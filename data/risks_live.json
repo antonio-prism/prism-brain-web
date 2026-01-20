@@ -1,0 +1,197 @@
+{
+  "risks": [
+    {
+      "id": "P1.1",
+      "name": "Major power grid failure (>48hr) in Europe",
+      "domain": "Physical",
+      "description": "Grid collapse, blackouts affecting industrial regions",
+      "probability_baseline": 12.0,
+      "probability_live": 12.0,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.002661",
+      "sources": [
+        "IEA Energy Security",
+        "ENTSO-E"
+      ],
+      "update_count": 0
+    },
+    {
+      "id": "P1.2",
+      "name": "Natural gas supply disruption (>30% reduction)",
+      "domain": "Physical",
+      "description": "Pipeline sabotage, supply cuts, storage depletion",
+      "probability_baseline": 25.0,
+      "probability_live": 25.0,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.002661",
+      "sources": [
+        "IEA Gas Security",
+        "EIA"
+      ],
+      "update_count": 0
+    },
+    {
+      "id": "P2.1",
+      "name": "Lithium supply shortage (>30% demand unmet)",
+      "domain": "Physical",
+      "description": "Mine production delays, export restrictions",
+      "probability_baseline": 35.0,
+      "probability_live": 35.0,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.002661",
+      "sources": [
+        "USGS",
+        "Benchmark Minerals"
+      ],
+      "update_count": 0
+    },
+    {
+      "id": "P3.1",
+      "name": "Extreme heat events (>40\u00b0C, >7 days)",
+      "domain": "Physical",
+      "description": "Worker safety, cooling system strain",
+      "probability_baseline": 45.0,
+      "probability_live": 48.6,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.076433",
+      "sources": [
+        "Copernicus C3S",
+        "IPCC AR6"
+      ],
+      "update_count": 1
+    },
+    {
+      "id": "S1.1",
+      "name": "US-China trade war escalation (tariffs >50%)",
+      "domain": "Structural",
+      "description": "Comprehensive tariff increases, tech decoupling",
+      "probability_baseline": 40.0,
+      "probability_live": 44.0,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.075176",
+      "sources": [
+        "USTR",
+        "WTO"
+      ],
+      "update_count": 1
+    },
+    {
+      "id": "S2.1",
+      "name": "EU-wide carbon price spike (>\u20ac150/ton)",
+      "domain": "Structural",
+      "description": "ETS reforms, border adjustment mechanism",
+      "probability_baseline": 30.0,
+      "probability_live": 30.0,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.002661",
+      "sources": [
+        "European Commission",
+        "EEX"
+      ],
+      "update_count": 0
+    },
+    {
+      "id": "D1.1",
+      "name": "Ransomware targeting ICS/SCADA systems",
+      "domain": "Digital",
+      "description": "Manufacturing disruption, safety systems compromise",
+      "probability_baseline": 55.0,
+      "probability_live": 63.24999999999999,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.072626",
+      "sources": [
+        "CISA",
+        "Dragos"
+      ],
+      "update_count": 1
+    },
+    {
+      "id": "D1.2",
+      "name": "Ransomware targeting ERP/MES systems",
+      "domain": "Digital",
+      "description": "Business operations disruption, data encryption",
+      "probability_baseline": 48.0,
+      "probability_live": 55.199999999999996,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.073923",
+      "sources": [
+        "CISA",
+        "IBM X-Force"
+      ],
+      "update_count": 1
+    },
+    {
+      "id": "D2.1",
+      "name": "Cloud provider major outage (>24hr)",
+      "domain": "Digital",
+      "description": "AWS/Azure/GCP service disruption",
+      "probability_baseline": 15.0,
+      "probability_live": 15.0,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.002661",
+      "sources": [
+        "Uptime Institute"
+      ],
+      "update_count": 0
+    },
+    {
+      "id": "D3.1",
+      "name": "Data breach exposing customer/IP data",
+      "domain": "Digital",
+      "description": "Cyberattack, insider threat, regulatory penalties",
+      "probability_baseline": 42.0,
+      "probability_live": 42.0,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.002661",
+      "sources": [
+        "Verizon DBIR",
+        "IBM Cost of Data Breach"
+      ],
+      "update_count": 0
+    },
+    {
+      "id": "O1.1",
+      "name": "Container shipping cost surge (>3x baseline)",
+      "domain": "Operational",
+      "description": "Port congestion, capacity shortage, fuel costs",
+      "probability_baseline": 38.0,
+      "probability_live": 39.9,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.077864",
+      "sources": [
+        "Freightos",
+        "Drewry"
+      ],
+      "update_count": 1
+    },
+    {
+      "id": "O2.1",
+      "name": "Labor strike at key supplier (>2 weeks)",
+      "domain": "Operational",
+      "description": "Wage disputes, working conditions",
+      "probability_baseline": 22.0,
+      "probability_live": 22.0,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.002661",
+      "sources": [
+        "ILO"
+      ],
+      "update_count": 0
+    },
+    {
+      "id": "O3.1",
+      "name": "Key component supplier bankruptcy",
+      "domain": "Operational",
+      "description": "Financial distress, single-source vulnerability",
+      "probability_baseline": 18.0,
+      "probability_live": 18.900000000000002,
+      "confidence_level": "Medium",
+      "last_updated": "2026-01-20 09:50:12.079496",
+      "sources": [
+        "Dun & Bradstreet"
+      ],
+      "update_count": 1
+    }
+  ],
+  "last_saved": "2026-01-20T09:50:12.079692"
+}

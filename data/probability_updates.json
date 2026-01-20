@@ -1,0 +1,190 @@
+{
+  "updates": [
+    {
+      "id": "c32d13c7-c156-43da-9d0c-2a800c2b39c0",
+      "risk_id": "D1.1",
+      "timestamp": "2026-01-20 09:50:12.072572",
+      "probability_before": 55.0,
+      "probability_after": 63.24999999999999,
+      "update_reason": "Updated based on 1 signal(s): CISA: New ransomware campaign targeting industrial control systems",
+      "signals": [
+        {
+          "source": "CISA",
+          "signal_type": "alert",
+          "severity": "high",
+          "multiplier": 1.15,
+          "description": "New ransomware campaign targeting industrial control systems",
+          "url": "https://www.cisa.gov/alerts",
+          "timestamp": "2026-01-20 09:50:12.072087",
+          "risk_ids": [
+            "D1.1",
+            "D1.2"
+          ]
+        }
+      ],
+      "data_sources_checked": [
+        "CISA",
+        "Google News",
+        "OpenWeatherMap",
+        "GDELT",
+        "USGS"
+      ],
+      "confidence_impact": null
+    },
+    {
+      "id": "313eadda-7871-4e9a-b2ee-fb3ae39ddb8b",
+      "risk_id": "D1.2",
+      "timestamp": "2026-01-20 09:50:12.073889",
+      "probability_before": 48.0,
+      "probability_after": 55.199999999999996,
+      "update_reason": "Updated based on 1 signal(s): CISA: New ransomware campaign targeting industrial control systems",
+      "signals": [
+        {
+          "source": "CISA",
+          "signal_type": "alert",
+          "severity": "high",
+          "multiplier": 1.15,
+          "description": "New ransomware campaign targeting industrial control systems",
+          "url": "https://www.cisa.gov/alerts",
+          "timestamp": "2026-01-20 09:50:12.072087",
+          "risk_ids": [
+            "D1.1",
+            "D1.2"
+          ]
+        }
+      ],
+      "data_sources_checked": [
+        "CISA",
+        "Google News",
+        "OpenWeatherMap",
+        "GDELT",
+        "USGS"
+      ],
+      "confidence_impact": null
+    },
+    {
+      "id": "78e6a2b7-03f9-46bf-8f4b-b1830f92976a",
+      "risk_id": "S1.1",
+      "timestamp": "2026-01-20 09:50:12.075156",
+      "probability_before": 40.0,
+      "probability_after": 44.0,
+      "update_reason": "Updated based on 1 signal(s): Google News: Increased news coverage of trade tensions (Global)",
+      "signals": [
+        {
+          "source": "Google News",
+          "signal_type": "mention",
+          "severity": "medium",
+          "multiplier": 1.1,
+          "description": "Increased news coverage of trade tensions (Global)",
+          "url": null,
+          "timestamp": "2026-01-20 09:50:12.072127",
+          "risk_ids": [
+            "S1.1"
+          ]
+        }
+      ],
+      "data_sources_checked": [
+        "CISA",
+        "Google News",
+        "OpenWeatherMap",
+        "GDELT",
+        "USGS"
+      ],
+      "confidence_impact": null
+    },
+    {
+      "id": "b5e5915b-d02e-48e2-b9e9-e555f547c186",
+      "risk_id": "P3.1",
+      "timestamp": "2026-01-20 09:50:12.076290",
+      "probability_before": 45.0,
+      "probability_after": 48.6,
+      "update_reason": "Updated based on 1 signal(s): OpenWeatherMap: Extended heat wave forecast for Southern Europe",
+      "signals": [
+        {
+          "source": "OpenWeatherMap",
+          "signal_type": "event",
+          "severity": "medium",
+          "multiplier": 1.08,
+          "description": "Extended heat wave forecast for Southern Europe",
+          "url": null,
+          "timestamp": "2026-01-20 09:50:12.072136",
+          "risk_ids": [
+            "P3.1"
+          ]
+        }
+      ],
+      "data_sources_checked": [
+        "CISA",
+        "Google News",
+        "OpenWeatherMap",
+        "GDELT",
+        "USGS"
+      ],
+      "confidence_impact": null
+    },
+    {
+      "id": "cdf01949-ba43-4e11-9b58-bfc1ced221df",
+      "risk_id": "O1.1",
+      "timestamp": "2026-01-20 09:50:12.077697",
+      "probability_before": 38.0,
+      "probability_after": 39.9,
+      "update_reason": "Updated based on 1 signal(s): GDELT: Increased mentions of supply chain disruptions in global news",
+      "signals": [
+        {
+          "source": "GDELT",
+          "signal_type": "event",
+          "severity": "low",
+          "multiplier": 1.05,
+          "description": "Increased mentions of supply chain disruptions in global news",
+          "url": null,
+          "timestamp": "2026-01-20 09:50:12.072144",
+          "risk_ids": [
+            "O1.1",
+            "O3.1"
+          ]
+        }
+      ],
+      "data_sources_checked": [
+        "CISA",
+        "Google News",
+        "OpenWeatherMap",
+        "GDELT",
+        "USGS"
+      ],
+      "confidence_impact": null
+    },
+    {
+      "id": "93b07738-e694-4332-a81d-fb3839f77d93",
+      "risk_id": "O3.1",
+      "timestamp": "2026-01-20 09:50:12.079300",
+      "probability_before": 18.0,
+      "probability_after": 18.900000000000002,
+      "update_reason": "Updated based on 1 signal(s): GDELT: Increased mentions of supply chain disruptions in global news",
+      "signals": [
+        {
+          "source": "GDELT",
+          "signal_type": "event",
+          "severity": "low",
+          "multiplier": 1.05,
+          "description": "Increased mentions of supply chain disruptions in global news",
+          "url": null,
+          "timestamp": "2026-01-20 09:50:12.072144",
+          "risk_ids": [
+            "O1.1",
+            "O3.1"
+          ]
+        }
+      ],
+      "data_sources_checked": [
+        "CISA",
+        "Google News",
+        "OpenWeatherMap",
+        "GDELT",
+        "USGS"
+      ],
+      "confidence_impact": null
+    }
+  ],
+  "total_updates": 6,
+  "last_saved": "2026-01-20T09:50:12.080512"
+}

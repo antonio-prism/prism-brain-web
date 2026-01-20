@@ -1,0 +1,56 @@
+{
+  "signals": [
+    {
+      "source": "CISA",
+      "signal_type": "alert",
+      "severity": "high",
+      "multiplier": 1.15,
+      "description": "New ransomware campaign targeting industrial control systems",
+      "url": "https://www.cisa.gov/alerts",
+      "timestamp": "2026-01-20 09:50:12.072087",
+      "risk_ids": [
+        "D1.1",
+        "D1.2"
+      ]
+    },
+    {
+      "source": "Google News",
+      "signal_type": "mention",
+      "severity": "medium",
+      "multiplier": 1.1,
+      "description": "Increased news coverage of trade tensions (Global)",
+      "url": null,
+      "timestamp": "2026-01-20 09:50:12.072127",
+      "risk_ids": [
+        "S1.1"
+      ]
+    },
+    {
+      "source": "OpenWeatherMap",
+      "signal_type": "event",
+      "severity": "medium",
+      "multiplier": 1.08,
+      "description": "Extended heat wave forecast for Southern Europe",
+      "url": null,
+      "timestamp": "2026-01-20 09:50:12.072136",
+      "risk_ids": [
+        "P3.1"
+      ]
+    },
+    {
+      "source": "GDELT",
+      "signal_type": "event",
+      "severity": "low",
+      "multiplier": 1.05,
+      "description": "Increased mentions of supply chain disruptions in global news",
+      "url": null,
+      "timestamp": "2026-01-20 09:50:12.072144",
+      "risk_ids": [
+        "O1.1",
+        "O3.1"
+      ]
+    }
+  ],
+  "total_signals": 4,
+  "last_saved": "2026-01-20T09:50:12.072218"
+}
